@@ -15,7 +15,7 @@ services:
     build:
       context: .
       args:
-        - N8N_VERSION=latest # Change this to your preferred version
+        - N8N_VERSION=2.37.9 # Change this to your preferred version
 
 volumes:
   n8n_data:
