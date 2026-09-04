@@ -12,6 +12,10 @@ services:
     environment:
       - GENERIC_TIMEZONE=Europe/Berlin # Change to your timezone
       - TZ=Europe/Berlin
+    build:
+      context: .
+      args:
+        - N8N_VERSION=latest # Change this to your preferred version
 
 volumes:
   n8n_data:
